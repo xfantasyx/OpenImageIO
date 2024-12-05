@@ -282,7 +282,7 @@ set (OIIO_VERSION_CONFIG "${CMAKE_BINARY_DIR}/${PROJECT_NAME}ConfigVersion.cmake
 # the config file that is actually looked for by find_package
 set (OIIO_PROJECT_CONFIG "${CMAKE_BINARY_DIR}/${PROJECT_NAME}Config.cmake")
 # where all these files will be installed
-set (OIIO_CONFIG_INSTALL_DIR "${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME}")
+set (OIIO_CONFIG_INSTALL_DIR "cmake")
 
 # first generate the version file in the binary dir
 write_basic_package_version_file (

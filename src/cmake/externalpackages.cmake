@@ -157,7 +157,7 @@ checked_find_package (DCMTK CONFIG VERSION_MIN 3.6.1)
 
 checked_find_package (FFmpeg VERSION_MIN 4.0)
 
-checked_find_package (GIF VERSION_MIN 5.0)
+checked_find_package (giflib VERSION_MIN 5.0)
 
 # For HEIF/HEIC/AVIF formats
 checked_find_package (Libheif VERSION_MIN 1.11
@@ -227,7 +227,7 @@ checked_find_package (Robinmap REQUIRED
                      )
 
 # fmtlib
-option (OIIO_INTERNALIZE_FMT "Copy fmt headers into <install>/include/OpenImageIO/detail/fmt" ON)
+option (OIIO_INTERNALIZE_FMT "Copy fmt headers into <install>/include/OpenImageIO/detail/fmt" OFF)
 checked_find_package (fmt REQUIRED
                       VERSION_MIN 7.0
                       BUILD_LOCAL missing
